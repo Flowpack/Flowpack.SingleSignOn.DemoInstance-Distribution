@@ -1,6 +1,27 @@
 {
-    "hash": "0ef12f2b7f6dbc2e501a6f5bb566b565",
+    "hash": "36c5b0c2cd5325ccf8fbbb83367cbfa4",
     "packages": [
+        {
+            "name": "acme/demoinstance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoInstance.git",
+                "reference": "f398f7ab98ba4656889b6e1875e081f0d4c3884e"
+            },
+            "require": {
+                "typo3/flow": "dev-master"
+            },
+            "time": "1350908424",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Acme\\Demo": "Classes"
+                }
+            },
+            "description": "Application package serving as a demo for an SSO instance"
+        },
         {
             "name": "doctrine/common",
             "version": "2.2.3",
@@ -148,7 +169,6 @@
             "suggest": {
                 "symfony/console": "to run the migration from the console"
             },
-            "time": "1350643044",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -175,7 +195,8 @@
             "keywords": [
                 "database",
                 "migrations"
-            ]
+            ],
+            "time": "1350643044"
         },
         {
             "name": "doctrine/orm",
@@ -357,7 +378,6 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1350856006",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -378,7 +398,8 @@
             "homepage": "http://flow.typo3.org",
             "keywords": [
                 "framework"
-            ]
+            ],
+            "time": "1350856006"
         },
         {
             "name": "typo3/flow-composer-installers",
@@ -400,7 +421,6 @@
             "require-dev": {
                 "composer/composer": "1.0.*"
             },
-            "time": "1350315157",
             "type": "composer-installer",
             "extra": {
                 "class": "Composer\\Installers\\Installer"
@@ -442,7 +462,8 @@
                 "silverstripe",
                 "kohana",
                 "TYPO3 Flow"
-            ]
+            ],
+            "time": "1350315157"
         },
         {
             "name": "typo3/fluid",
@@ -456,7 +477,6 @@
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "1349283709",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -467,7 +487,8 @@
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 5.0, also backported to TYPO3 4.x"
+            "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 5.0, also backported to TYPO3 4.x",
+            "time": "1349283709"
         },
         {
             "name": "typo3/party",
@@ -481,7 +502,6 @@
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "1349341725",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -492,7 +512,8 @@
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard."
+            "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
+            "time": "1349341725"
         }
     ],
     "packages-dev": [
@@ -538,13 +559,13 @@
                 "php": ">=5.3.2",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1350311922",
             "type": "typo3-flow-build",
             "installation-source": "source",
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "TYPO3 Flow Build Toolchain Essentials"
+            "description": "TYPO3 Flow Build Toolchain Essentials",
+            "time": "1350311922"
         },
         {
             "name": "typo3/kickstart",
@@ -557,7 +578,6 @@
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1349281880",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -568,7 +588,8 @@
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "A simple generator for controller and views."
+            "description": "A simple generator for controller and views.",
+            "time": "1349281880"
         }
     ],
     "aliases": [
@@ -576,7 +597,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "typo3/flow": 20,
+        "acme/demoinstance": 20,
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20
     }
