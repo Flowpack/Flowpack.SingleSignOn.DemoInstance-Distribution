@@ -1,10 +1,14 @@
 {
-    "name": "amadeus/somea-sso-demoserver",
-    "description" : "Demo distribution for the SSO Server",
+    "name": "amadeus/somea-sso-demoinstance",
+    "description" : "Demo distribution for the SSO Client",
     "repositories": [
         {
             "type": "git",
             "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git"
+        },
+        {
+            "type": "git",
+            "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoInstance.git"
         }
     ],
     "config": {
@@ -12,7 +16,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/flow": "dev-master"
+        "acme/demoinstance": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
