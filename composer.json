@@ -9,6 +9,10 @@
         {
             "type": "git",
             "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoInstance.git"
+        },
+        {
+            "type": "git",
+            "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git"
         }
     ],
     "config": {

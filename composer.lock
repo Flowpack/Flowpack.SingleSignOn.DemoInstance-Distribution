@@ -1,5 +1,5 @@
 {
-    "hash": "36c5b0c2cd5325ccf8fbbb83367cbfa4",
+    "hash": "af56206217eb23b5b1cace22ae20a5d6",
     "packages": [
         {
             "name": "acme/demoinstance",
@@ -7,17 +7,18 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoInstance.git",
-                "reference": "f398f7ab98ba4656889b6e1875e081f0d4c3884e"
+                "reference": "71c0890cda218e801f8bb372e25ea6b0a4d1f30f"
             },
             "require": {
-                "typo3/flow": "dev-master"
+                "typo3/flow": "*",
+                "typo3/singlesignon-client": "*"
             },
-            "time": "1350908424",
+            "time": "1350920845",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Acme\\Demo": "Classes"
+                    "Acme\\DemoInstance": "Classes"
                 }
             },
             "description": "Application package serving as a demo for an SSO instance"
@@ -514,6 +515,27 @@
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
             "time": "1349341725"
+        },
+        {
+            "name": "typo3/singlesignon-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git",
+                "reference": "2676a1bb26589f37bf1d5fce3ba779c1d49d3812"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1350921042",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\SingleSignOn\\Client": "Classes"
+                }
+            },
+            "description": "TYPO3 SingleSignOn Client"
         }
     ],
     "packages-dev": [
