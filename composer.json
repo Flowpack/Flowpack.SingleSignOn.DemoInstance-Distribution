@@ -4,15 +4,15 @@
     "repositories": [
         {
             "type": "git",
-            "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/TYPO3.Flow.git"
+            "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git"
         },
         {
             "type": "git",
-            "url": "ssh://review.networkteam.com/flow3/projects/somea/packages/Acme.DemoInstance.git"
+            "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoInstance.git"
         },
         {
             "type": "git",
-            "url": "ssh://review.networkteam.com/flow3/packages/TYPO3.SingleSignOn.Client.git"
+            "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git"
         }
     ],
     "config": {
@@ -20,12 +20,14 @@
         "bin-dir": "bin"
     },
     "require": {
+		"typo3/flow": "dev-fixes",
         "acme/demoinstance": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
         "typo3/buildessentials": "dev-master",
-        "mikey179/vfsstream": "1.1.*"
+        "mikey179/vfsstream": "1.1.*",
+		"mockery/mockery": "0.7.*"
     },
     "minimum-stability": "dev",
     "scripts": {
