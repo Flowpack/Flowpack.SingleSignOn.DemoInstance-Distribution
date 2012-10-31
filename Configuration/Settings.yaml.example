@@ -25,9 +25,13 @@ TYPO3:
 
   SingleSignOn:
     Client:
-      # You have to set the SSO server endpoint URI
-      ssoServerEndpointUri: 'http://ssoserver/sso/authentication'
-      # The acme.demoinstance:setup:setup command will take care of setting the right identifier and keys
-      ssoClientIdentifier: NULL
-      ssoClientKeyPairUuid: NULL
-      ssoServerPublicKeyUuid: NULL
+      client:
+      	# Client identifier and key pair will be set by setup command
+        identifier: ''
+        keyPairUuid: ''
+      server:
+        DemoServer:
+          # Public key of server will be set by setup command
+          publicKeyUuid: ''
+          # NOTICE: You have to set the SSO server endpoint URI
+          endpointUri: 'http://ssoserver/sso/authentication'
