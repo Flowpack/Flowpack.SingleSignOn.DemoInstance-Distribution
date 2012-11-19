@@ -7,13 +7,13 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoInstance.git",
-                "reference": "da4040f0dfe193c330a868f9b6501c6ebae62c65"
+                "reference": "948fd30d0a915ffea10de1345404d665df31007b"
             },
             "require": {
                 "typo3/flow": "*",
                 "typo3/singlesignon-client": "*"
             },
-            "time": "1353345427",
+            "time": "1353357939",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -633,12 +633,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "48ddb9219e5ee28b318fcf792ffa81ced2e7f1ce"
+                "reference": "18eb694b21169a03614eb1321a2fecdd8be0d128"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1353345471",
+            "time": "1353357971",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
