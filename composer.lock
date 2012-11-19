@@ -583,13 +583,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git",
-                "reference": "65ea61e4c17f6d635ef828afd90f2e01b3795e52"
+                "reference": "56956519d46f1a3bdeb1ecb8c5dfcf54b9e3952f"
             },
             "require": {
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "1352278752",
+            "time": "1353077078",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -633,12 +633,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "eb7e2e4a7cae60d7068666c680ce7f69f57f2a20"
+                "reference": "8a65b2d1ef986d673127aa24eefba4ffb29a2aea"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1352999121",
+            "time": "1353320351",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
