@@ -22,3 +22,16 @@ TYPO3:
   # the location of the PHP binary manually.
   #  core:
   #    phpBinaryPathAndFilename: 'C:/path/to/php.exe'
+
+  SingleSignOn:
+    Client:
+      client:
+       # Client identifier and key pair will be set by setup command
+        identifier: ''
+        keyPairUuid: ''
+      server:
+        DemoServer:
+          # Public key of server will be set by setup command
+          publicKeyUuid: ''
+          # NOTICE: You have to set the SSO server endpoint URI
+          serviceBaseUri: 'http://ssoserver/sso/authentication'
