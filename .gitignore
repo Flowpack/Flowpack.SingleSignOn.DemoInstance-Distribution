@@ -3,6 +3,7 @@
 /Configuration/Settings.yaml
 /Configuration/Testing/Settings.yaml
 /Configuration/Caches.yaml
+/Configuration/Production/IncludeCachedConfigurations.php
 /Data/
 /Packages/
 /Web/

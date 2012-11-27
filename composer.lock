@@ -7,13 +7,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoInstance.git",
-                "reference": "948fd30d0a915ffea10de1345404d665df31007b"
+                "reference": "de1f51b4956c221b8d3c08e5f41d1271c9f06cb3"
             },
             "require": {
                 "typo3/flow": "*",
-                "typo3/singlesignon-client": "*"
+                "typo3/singlesignon-client": "*",
+                "typo3/twitter-bootstrap": "dev-master"
             },
-            "time": "1353357939",
+            "time": "2012-11-27 16:40:15",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -40,7 +41,7 @@
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "1348120518",
+            "time": "2012-09-20 05:55:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -98,18 +99,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "98e059213cd8bf70f1203a3c9acc3c7e8afc2c89"
+                "reference": "a28b6bde290b0a908d32938e3393244086c2d89d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/data-fixtures/archive/98e059213cd8bf70f1203a3c9acc3c7e8afc2c89.zip",
-                "reference": "98e059213cd8bf70f1203a3c9acc3c7e8afc2c89",
+                "url": "https://github.com/doctrine/data-fixtures/archive/a28b6bde290b0a908d32938e3393244086c2d89d.zip",
+                "reference": "a28b6bde290b0a908d32938e3393244086c2d89d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "1353423624",
+            "time": "2012-11-22 04:04:25",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -139,19 +140,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "292d5edd17e0a9b9a7ee9eb20d6ae1033059153f"
+                "reference": "22a30c9cece379eab619727c83e1859288f32f89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/archive/292d5edd17e0a9b9a7ee9eb20d6ae1033059153f.zip",
-                "reference": "292d5edd17e0a9b9a7ee9eb20d6ae1033059153f",
+                "url": "https://github.com/doctrine/dbal/archive/22a30c9cece379eab619727c83e1859288f32f89.zip",
+                "reference": "22a30c9cece379eab619727c83e1859288f32f89",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "1352716871",
+            "time": "2012-11-25 18:03:29",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -248,7 +249,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "1350643044"
+            "time": "2012-10-19 10:37:24"
         },
         {
             "name": "doctrine/orm",
@@ -256,12 +257,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/doctrine2.git",
-                "reference": "77d060ab74212919f1eaace72842ea43bf420f43"
+                "reference": "a3fea32e0e655a1c3e6bd56d3d2147d2c7d27cbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/doctrine2/archive/77d060ab74212919f1eaace72842ea43bf420f43.zip",
-                "reference": "77d060ab74212919f1eaace72842ea43bf420f43",
+                "url": "https://github.com/doctrine/doctrine2/archive/a3fea32e0e655a1c3e6bd56d3d2147d2c7d27cbd.zip",
+                "reference": "a3fea32e0e655a1c3e6bd56d3d2147d2c7d27cbd",
                 "shasum": ""
             },
             "require": {
@@ -273,7 +274,7 @@
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
             },
-            "time": "1352731781",
+            "time": "2012-11-25 19:16:21",
             "bin": [
                 "bin/doctrine",
                 "bin/doctrine.php"
@@ -338,7 +339,7 @@
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1353329932",
+            "time": "2012-11-19 12:58:52",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -391,7 +392,7 @@
             "suggest": {
                 "symfony/css-selector": "2.2.*"
             },
-            "time": "1353329932",
+            "time": "2012-11-19 12:58:52",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -438,7 +439,7 @@
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1352815684",
+            "time": "2012-11-13 14:08:04",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -490,7 +491,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1353430988",
+            "time": "2012-11-20 17:03:08",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -575,7 +576,7 @@
                 "kohana",
                 "TYPO3 Flow"
             ],
-            "time": "1350315157"
+            "time": "2012-10-15 15:32:37"
         },
         {
             "name": "typo3/fluid",
@@ -583,13 +584,13 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git",
-                "reference": "56956519d46f1a3bdeb1ecb8c5dfcf54b9e3952f"
+                "reference": "5504beef578d5ef2e6c0f394fbed1a6e240d70c5"
             },
             "require": {
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "1353077078",
+            "time": "2012-11-23 11:54:23",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -614,7 +615,7 @@
                 "typo3/flow-composer-installers": "*",
                 "typo3/flow": "*"
             },
-            "time": "1352382512",
+            "time": "2012-11-08 13:48:32",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -633,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "18eb694b21169a03614eb1321a2fecdd8be0d128"
+                "reference": "23998b6a2a0c06d603abcc62d77dda33140dbc68"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1353357971",
+            "time": "2012-11-27 17:23:09",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -647,6 +648,27 @@
                 }
             },
             "description": "TYPO3 SingleSignOn Client"
+        },
+        {
+            "name": "typo3/twitter-bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
+                "reference": "c1343bce953a2d81419b60cac3b83fec6fa22318"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "2012-11-08 19:50:49",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Twitter\\Bootstrap": "Classes"
+                }
+            },
+            "description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. Packaged for use with TYPO3 Flow"
         }
     ],
     "packages-dev": [
@@ -745,7 +767,7 @@
                 "php": ">=5.3.2",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "1352409208",
+            "time": "2012-11-08 21:13:28",
             "type": "typo3-flow-build",
             "installation-source": "source",
             "license": [
@@ -759,11 +781,12 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Kickstart.git",
-                "reference": "4280efb254988ba03c6c1d2013377fd026cd1e29"
+                "reference": "3060ff79b14ea8ff7ca3fefb54dad911b625bc2f"
             },
             "require": {
                 "typo3/flow": "*"
             },
+            "time": "2012-11-26 15:04:40",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
@@ -774,8 +797,7 @@
             "license": [
                 "LGPL-3.0+"
             ],
-            "description": "A simple generator for controller and views.",
-            "time": "1349281880"
+            "description": "A simple generator for controller and views."
         }
     ],
     "aliases": [
