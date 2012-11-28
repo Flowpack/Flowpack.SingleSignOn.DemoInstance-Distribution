@@ -474,7 +474,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git",
-                "reference": "b1caa487a1ffceff7ec0df4d1bdcbedf9accbbe3"
+                "reference": "208a11f340f79d0c180af56dd81196eade1ab359"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -491,7 +491,7 @@
                 "symfony/dom-crawler": ">2.0.16",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "2012-11-28 16:52:28",
+            "time": "2012-11-28 18:22:56",
             "type": "typo3-flow-framework",
             "installation-source": "source",
             "autoload": {
