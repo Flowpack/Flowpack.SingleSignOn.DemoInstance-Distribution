@@ -634,12 +634,12 @@
             "source": {
                 "type": "git",
                 "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git",
-                "reference": "feef9068a960a5d649c3313ad1f611f607392fbc"
+                "reference": "cb86f06d97a9043c8541c2977d231c3e12745ec2"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-28 16:16:04",
+            "time": "2012-11-28 20:42:20",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -655,12 +655,12 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
-                "reference": "c1343bce953a2d81419b60cac3b83fec6fa22318"
+                "reference": "dacbb5e42b6db5dcee090f576748c940756cebda"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "2012-11-08 19:50:49",
+            "time": "2012-11-24 21:40:53",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
