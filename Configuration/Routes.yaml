@@ -19,6 +19,17 @@
       package: Acme.DemoInstance
 
 ##
+# TYPO3.SingleSignOn.Client subroutes
+#
+
+-
+  name: 'SingleSignOn'
+  uriPattern: 'sso/<SingleSignOnSubroutes>'
+  subRoutes:
+    SingleSignOnSubroutes:
+      package: TYPO3.SingleSignOn.Client
+
+##
 # Flow subroutes
 #
 

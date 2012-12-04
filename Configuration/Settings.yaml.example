@@ -9,16 +9,16 @@
 #                                                                        #
 
 TYPO3:
-  Flow:
-    persistence:
-
-      # It is good practice to not specify user name and password of the database
-      # connection in this global Settings.yaml file. Rather specify them in the
-      # settings of the respective context (Production / Development ...).
-      backendOptions:
-        host: '127.0.0.1'    # adjust to your database host
-
-  # You might need to uncomment the following lines and specify
-  # the location of the PHP binary manually.
-  #  core:
-  #    phpBinaryPathAndFilename: 'C:/path/to/php.exe'
+  SingleSignOn:
+    Client:
+      client:
+        # NOTICE: You have to set the base URI of the client (acts as the client identifier)
+        baseUri: 'http://ssoinstance/'
+        # Client key pair will be set by setup command
+        keyPairUuid: ''
+      server:
+        DemoServer:
+          # Public key of server will be set by setup command
+          publicKeyUuid: ''
+          # NOTICE: You have to set the SSO server service base URI
+          serviceBaseUri: 'http://ssoserver/sso'
