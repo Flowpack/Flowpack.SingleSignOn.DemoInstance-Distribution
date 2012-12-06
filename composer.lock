@@ -529,12 +529,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/christianjul/installers.git",
-                "reference": "53318d52eeda45dee97be288b8f744be00662f37"
+                "reference": "1f8f79764c11200deb62611408ac926688b7f3b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/christianjul/installers/zipball/53318d52eeda45dee97be288b8f744be00662f37",
-                "reference": "53318d52eeda45dee97be288b8f744be00662f37",
+                "url": "https://github.com/christianjul/installers/archive/1f8f79764c11200deb62611408ac926688b7f3b2.zip",
+                "reference": "1f8f79764c11200deb62611408ac926688b7f3b2",
                 "shasum": ""
             },
             "replace": {
@@ -543,6 +543,7 @@
             "require-dev": {
                 "composer/composer": "1.0.*"
             },
+            "time": "2012-12-06 13:14:02",
             "type": "composer-installer",
             "extra": {
                 "class": "Composer\\Installers\\Installer"
@@ -584,8 +585,7 @@
                 "silverstripe",
                 "kohana",
                 "TYPO3 Flow"
-            ],
-            "time": "2012-10-15 15:32:37"
+            ]
         },
         {
             "name": "typo3/fluid",
@@ -770,14 +770,19 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/BuildEssentials.git",
-                "reference": "3084766f15019a2a029c22a5039cfe58f37f8f97"
+                "reference": "8c4fdd21085b7dda3434ac748cbe1bb1a7f61cab"
             },
             "require": {
                 "php": ">=5.3.2",
                 "typo3/flow-composer-installers": "*"
             },
-            "time": "2012-11-08 21:13:28",
+            "time": "2012-12-06 10:36:28",
             "type": "typo3-flow-build",
+            "extra": {
+                "typo3/flow": {
+                    "case-sensitive-package-name": "BuildEssentials"
+                }
+            },
             "installation-source": "source",
             "license": [
                 "LGPL-3.0+"
