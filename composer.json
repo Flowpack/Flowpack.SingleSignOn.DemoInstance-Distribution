@@ -2,17 +2,17 @@
     "name": "amadeus/somea-sso-demoinstance",
     "description" : "Demo distribution for the SSO Client",
     "repositories": [
-        {
-            "type": "git",
-            "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/TYPO3.Flow.git"
+		{
+            "type": "composer",
+            "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
         },
         {
             "type": "git",
-            "url": "ssh://review.networkteam.com:29418/flow3/projects/somea/packages/Acme.DemoInstance.git"
+            "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoInstance.git"
         },
         {
             "type": "git",
-            "url": "ssh://review.networkteam.com:29418/flow3/packages/TYPO3.SingleSignOn.Client.git"
+            "url": "https://github.com/chlu/TYPO3.SingleSignOn.Client.git"
         }
     ],
     "config": {
@@ -20,7 +20,7 @@
         "bin-dir": "bin"
     },
     "require": {
-		"typo3/flow": "dev-fixes",
+		"typo3/flow": "dev-master",
         "acme/demoinstance": "dev-master"
     },
     "require-dev": {
