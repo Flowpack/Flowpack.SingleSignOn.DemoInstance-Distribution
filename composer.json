@@ -1,6 +1,6 @@
 {
 	"name": "flowpack/singlesignon-demoinstance-distribution",
-	"description": "Demo distribution for the SSO Client",
+	"description": "Demo distribution for the SSO instance",
 	"config": {
 		"vendor-dir": "Packages/Libraries",
 		"bin-dir": "bin"

@@ -1,28 +1,6 @@
 {
-    "hash": "0d9e860a2c2bdc33dc4051b242b64d74",
+    "hash": "4977b854290f02d1e0f876db8506a09d",
     "packages": [
-        {
-            "name": "flowpack/singlesignon-demoinstance",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chlu/TYPO3.SingleSignOn.DemoInstance.git",
-                "reference": "976f1adb08d5e7ab2503660b31bff113f908615d"
-            },
-            "require": {
-                "typo3/flow": "*",
-                "typo3/singlesignon-client": "*",
-                "typo3/twitter-bootstrap": "dev-master"
-            },
-            "type": "typo3-flow-package",
-            "autoload": {
-                "psr-0": {
-                    "Acme\\DemoInstance": "Classes"
-                }
-            },
-            "description": "Application package serving as a demo for an SSO instance",
-            "time": "2013-04-17 14:28:39"
-        },
         {
             "name": "composer/installers",
             "version": "dev-master",
@@ -97,16 +75,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.1",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "v1.1"
+                "reference": "v1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/v1.1",
-                "reference": "v1.1",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/v1.1.1",
+                "reference": "v1.1.1",
                 "shasum": ""
             },
             "require": {
@@ -117,6 +95,11 @@
                 "doctrine/cache": "1.*"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Doctrine\\Common\\Annotations\\": "lib/"
@@ -148,7 +131,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -159,7 +142,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2013-03-17 14:03:10"
+            "time": "2013-04-20 08:30:17"
         },
         {
             "name": "doctrine/cache",
@@ -429,12 +412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "c75da707518488506efa93e29fb67cf278353f85"
+                "reference": "4abe8f7602e0f4079848950190fb6798781c94c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/c75da707518488506efa93e29fb67cf278353f85",
-                "reference": "c75da707518488506efa93e29fb67cf278353f85",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/4abe8f7602e0f4079848950190fb6798781c94c7",
+                "reference": "4abe8f7602e0f4079848950190fb6798781c94c7",
                 "shasum": ""
             },
             "require": {
@@ -484,7 +467,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-04-14 12:36:49"
+            "time": "2013-04-20 08:33:51"
         },
         {
             "name": "doctrine/inflector",
@@ -736,18 +719,108 @@
             "time": "2013-04-14 07:52:39"
         },
         {
+            "name": "flowpack/singlesignon-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.Client.git",
+                "reference": "9087fabfbbb1b8a5b4db882f8cabfa8c8ea7b321"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Client/zipball/9087fabfbbb1b8a5b4db882f8cabfa8c8ea7b321",
+                "reference": "9087fabfbbb1b8a5b4db882f8cabfa8c8ea7b321",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": ">=2.0,<3.0"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Flowpack\\SingleSignOn\\Client": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Lemke",
+                    "email": "rl@robertlemke.com",
+                    "homepage": "http://robertlemke.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Christopher Hlubek",
+                    "email": "hlubek@networkteam.com",
+                    "homepage": "http://www.networkteam.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flowpack SingleSignOn Client",
+            "time": "2013-04-22 07:28:57"
+        },
+        {
+            "name": "flowpack/singlesignon-demoinstance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.DemoInstance.git",
+                "reference": "0bc02c8a406a38f098f3e88121e5e6291a425366"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.DemoInstance/zipball/0bc02c8a406a38f098f3e88121e5e6291a425366",
+                "reference": "0bc02c8a406a38f098f3e88121e5e6291a425366",
+                "shasum": ""
+            },
+            "require": {
+                "flowpack/singlesignon-client": "*",
+                "typo3/flow": ">=2.0,<3.0",
+                "typo3/twitter-bootstrap": "dev-master"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Flowpack\\SingleSignOn\\DemoInstance": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Lemke",
+                    "email": "rl@robertlemke.com",
+                    "homepage": "http://robertlemke.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Christopher Hlubek",
+                    "email": "hlubek@networkteam.com",
+                    "homepage": "http://www.networkteam.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Application package serving as a demo for an SSO instance",
+            "time": "2013-04-22 09:08:10"
+        },
+        {
             "name": "symfony/console",
             "version": "dev-master",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "d12b9f735acc4c335d040ff042530c2ef82150f3"
+                "reference": "0022ee8cb49fcac14442abd49038da24f9b953d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/d12b9f735acc4c335d040ff042530c2ef82150f3",
-                "reference": "d12b9f735acc4c335d040ff042530c2ef82150f3",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/0022ee8cb49fcac14442abd49038da24f9b953d4",
+                "reference": "0022ee8cb49fcac14442abd49038da24f9b953d4",
                 "shasum": ""
             },
             "require": {
@@ -783,7 +856,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-04-17 05:37:48"
+            "time": "2013-04-21 10:38:46"
         },
         {
             "name": "symfony/dom-crawler",
@@ -882,11 +955,11 @@
         },
         {
             "name": "typo3/flow",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git",
-                "reference": "84883e7aac2f526b64bf822ab08ef4077af43c17"
+                "reference": "899b0dc8d0f4f26d3123bb2eda041f99c01717e4"
             },
             "require": {
                 "composer/installers": ">=1.0.2,<1.1",
@@ -900,8 +973,8 @@
                 "php": ">=5.3.2",
                 "symfony/dom-crawler": "2.2.*",
                 "symfony/yaml": "2.1.*",
-                "typo3/fluid": "*",
-                "typo3/party": "*"
+                "typo3/fluid": "2.0.*",
+                "typo3/party": "2.0.*"
             },
             "type": "typo3-flow-framework",
             "autoload": {
@@ -915,18 +988,18 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2013-04-17 15:07:11"
+            "time": "2013-04-22 08:29:12"
         },
         {
             "name": "typo3/fluid",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git",
-                "reference": "e1ca2a73bed86aa028d8289b0130eec7983a4779"
+                "reference": "db1a42045882eeafb1e677eccbf24b227d5f8b52"
             },
             "require": {
-                "typo3/flow": "*"
+                "typo3/flow": "2.0.*"
             },
             "type": "typo3-flow-framework",
             "autoload": {
@@ -939,18 +1012,18 @@
                 "LGPL-3.0+"
             ],
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2013-04-17 11:16:45"
+            "time": "2013-04-17 14:05:05"
         },
         {
             "name": "typo3/party",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/TYPO3.Party.git",
-                "reference": "9a182f598ca63b7ca6a04eb3fe4051775de54d79"
+                "reference": "8b51051f1ca42c57bd86ce0cccdce5d0881a42fa"
             },
             "require": {
-                "typo3/flow": "*"
+                "typo3/flow": "2.0.*"
             },
             "type": "typo3-flow-framework",
             "autoload": {
@@ -963,27 +1036,7 @@
                 "LGPL-3.0+"
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
-            "time": "2013-04-02 18:12:58"
-        },
-        {
-            "name": "typo3/singlesignon-client",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chlu/TYPO3.SingleSignOn.Client.git",
-                "reference": "45a20423a375b5c62f2513ed1403840cf219396f"
-            },
-            "require": {
-                "typo3/flow": "*"
-            },
-            "type": "typo3-flow-package",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\SingleSignOn\\Client": "Classes"
-                }
-            },
-            "description": "TYPO3 SingleSignOn Client",
-            "time": "2013-04-17 14:20:41"
+            "time": "2013-04-15 08:48:17"
         },
         {
             "name": "typo3/twitter-bootstrap",
@@ -1144,7 +1197,6 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "typo3/flow": 20,
         "flowpack/singlesignon-demoinstance": 20,
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20
