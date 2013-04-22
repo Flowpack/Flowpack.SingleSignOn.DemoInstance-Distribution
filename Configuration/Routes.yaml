@@ -8,7 +8,7 @@
 #                                                                        #
 
 ##
-# Acme.DemoInstance subroutes
+# Flowpack.SingleSignOn.DemoInstance subroutes
 #
 
 -
@@ -16,7 +16,7 @@
   uriPattern: '<DemoInstanceSubroutes>'
   subRoutes:
     DemoInstanceSubroutes:
-      package: Acme.DemoInstance
+      package: Flowpack.SingleSignOn.DemoInstance
 
 ##
 # TYPO3.SingleSignOn.Client subroutes
@@ -27,7 +27,7 @@
   uriPattern: 'sso/<SingleSignOnSubroutes>'
   subRoutes:
     SingleSignOnSubroutes:
-      package: TYPO3.SingleSignOn.Client
+      package: Flowpack.SingleSignOn.Client
 
 ##
 # Flow subroutes

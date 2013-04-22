@@ -1,0 +1,8 @@
+Flowpack:
+  SingleSignOn:
+    Client:
+      client:
+        serviceBaseUri: http://ssodemoinstance2.dev/sso
+
+    DemoInstance:
+      demoInstanceName: Instance 2

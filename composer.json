@@ -17,7 +17,7 @@
     },
     "require": {
 		"typo3/flow": "dev-master",
-        "acme/demoinstance": "dev-master"
+        "flowpack/singlesignon-demoinstance": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",

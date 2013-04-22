@@ -1,0 +1,15 @@
+Flowpack:
+  SingleSignOn:
+    Client:
+      client:
+        serviceBaseUri: http://sso-client.dev/sso
+    DemoInstance:
+      demoInstanceName: Instance 1
+
+TYPO3:
+  Flow:
+    persistence:
+      backendOptions:
+        dbname: 'ssoclient'       # adjust to your database name
+        user: 'root'             # adjust to your database user
+        password: 'password'         # adjust to your database password
