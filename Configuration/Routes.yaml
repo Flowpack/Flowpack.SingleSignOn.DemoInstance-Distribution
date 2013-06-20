@@ -19,7 +19,7 @@
       package: Flowpack.SingleSignOn.DemoInstance
 
 ##
-# TYPO3.SingleSignOn.Client subroutes
+# Flowpack.SingleSignOn.Client subroutes
 #
 
 -
