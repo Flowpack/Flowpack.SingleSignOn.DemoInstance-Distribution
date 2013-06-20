@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "a30e407c1fdd4aa7adc53b3bf9275a7d47f925da"
+                "reference": "v1.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/a30e407c1fdd4aa7adc53b3bf9275a7d47f925da",
-                "reference": "a30e407c1fdd4aa7adc53b3bf9275a7d47f925da",
+                "url": "https://api.github.com/repos/composer/installers/zipball/v1.0.4",
+                "reference": "v1.0.4",
                 "shasum": ""
             },
             "replace": {
@@ -67,6 +67,7 @@
                 "li3",
                 "lithium",
                 "mako",
+                "modulework",
                 "phpbb",
                 "ppi",
                 "silverstripe",
@@ -74,7 +75,7 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-06-13 16:21:37"
+            "time": "2013-06-20 02:36:19"
         },
         {
             "name": "doctrine/annotations",
@@ -675,12 +676,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flowpack/Flowpack.SingleSignOn.Client.git",
-                "reference": "b5a1f51e27283b7a02e9206394df52ab2bb1e155"
+                "reference": "0512b66bba7cf31fd03c9608a1e4c67a7c1c0e00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Client/zipball/b5a1f51e27283b7a02e9206394df52ab2bb1e155",
-                "reference": "b5a1f51e27283b7a02e9206394df52ab2bb1e155",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.SingleSignOn.Client/zipball/0512b66bba7cf31fd03c9608a1e4c67a7c1c0e00",
+                "reference": "0512b66bba7cf31fd03c9608a1e4c67a7c1c0e00",
                 "shasum": ""
             },
             "require": {
@@ -711,7 +712,7 @@
                 }
             ],
             "description": "Flowpack SingleSignOn Client",
-            "time": "2013-04-22 12:48:17"
+            "time": "2013-06-20 09:09:22"
         },
         {
             "name": "flowpack/singlesignon-demoinstance",
@@ -819,12 +820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "e8e7f344882324761e1a3bfbfce44f26437af22d"
+                "reference": "v2.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/e8e7f344882324761e1a3bfbfce44f26437af22d",
-                "reference": "e8e7f344882324761e1a3bfbfce44f26437af22d",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/v2.2.3",
+                "reference": "v2.2.3",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +1001,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git",
-                "reference": "21874376b5b4a7a7ff61f5676eab15c298af2514"
+                "reference": "b3aec076249bfe1da6ec71a22caf13ee8b23ecfe"
             },
             "require": {
                 "typo3/flow": "*"
@@ -1013,7 +1014,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. Packaged for use with TYPO3 Flow",
-            "time": "2013-03-21 21:59:28"
+            "time": "2013-06-16 10:34:06"
         }
     ],
     "packages-dev": [
